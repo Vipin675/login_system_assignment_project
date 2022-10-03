@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Succefully logged in</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="px-4 py-5 my-5 text-center">
+      <h1 class="display-5 fw-bold">Hello, {{request.user}}</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a mauris odio. Phasellus non pretium risus, ut pharetra felis. Maecenas feugiat congue volutpat. Aenean commodo purus non eros accumsan, id ullamcorper sem accumsan. Duis imperdiet rhoncus felis quis aliquam. Cras lobortis consectetur erat, et egestas diam vulputate dignissim. Sed leo diam, euismod nec suscipit a, scelerisque quis mi. Etiam neque erat, congue ut lacus at, ultrices tincidunt mauris.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="/logout" class="btn btn-outline-danger btn-lg px-4" tabindex="-1" role="button" aria-disabled="true">Logout</a>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
